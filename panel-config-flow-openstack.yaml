@@ -247,7 +247,7 @@ cells:
     fillColor:
       thresholds: *thresholds-operstate
   link_id:server-1:eth1:leaf-1:ethernet-1/5/4:
-    dataRef: server-1:eth1:out
+    dataRef: leaf-1:ethernet-1/5/4:in
     label: *label-config
     strokeColor:
       thresholds: *thresholds-traffic
@@ -256,7 +256,7 @@ cells:
     fillColor:
       thresholds: *thresholds-operstate
   link_id:server-1:eth2:leaf-2:ethernet-1/5/4:
-    dataRef: server-1:eth2:out
+    dataRef: leaf-2:ethernet-1/5/4:in
     label: *label-config
     strokeColor:
       thresholds: *thresholds-traffic
@@ -265,7 +265,7 @@ cells:
     fillColor:
       thresholds: *thresholds-operstate
   link_id:server-1:eth3:leaf-3:ethernet-1/1:
-    dataRef: server-1:eth3:out
+    dataRef: leaf-3:ethernet-1/1:in
     label: *label-config
     strokeColor:
       thresholds: *thresholds-traffic
@@ -274,7 +274,7 @@ cells:
     fillColor:
       thresholds: *thresholds-operstate
   link_id:server-1:eth4:leaf-4:ethernet-1/1:
-    dataRef: server-1:eth4:out
+    dataRef: leaf-4:ethernet-1/1:in
     label: *label-config
     strokeColor:
       thresholds: *thresholds-traffic
@@ -283,7 +283,7 @@ cells:
     fillColor:
       thresholds: *thresholds-operstate
   link_id:server-2:eth1:leaf-1:ethernet-1/6/1:
-    dataRef: server-2:eth1:out
+    dataRef: leaf-2:ethernet-1/9/1:in
     label: *label-config
     strokeColor:
       thresholds: *thresholds-traffic
@@ -292,7 +292,7 @@ cells:
     fillColor:
       thresholds: *thresholds-operstate
   link_id:server-2:eth2:leaf-2:ethernet-1/6/1:
-    dataRef: server-2:eth2:out
+    dataRef: leaf-2:ethernet-1/9/1:in
     label: *label-config
     strokeColor:
       thresholds: *thresholds-traffic
@@ -301,7 +301,7 @@ cells:
     fillColor:
       thresholds: *thresholds-operstate
   link_id:server-2:eth3:leaf-3:ethernet-1/2:
-    dataRef: server-2:eth3:out
+    dataRef: leaf-3:ethernet-1/17:in
     label: *label-config
     strokeColor:
       thresholds: *thresholds-traffic
@@ -310,7 +310,7 @@ cells:
     fillColor:
       thresholds: *thresholds-operstate
   link_id:server-2:eth4:leaf-4:ethernet-1/2:
-    dataRef: server-2:eth4:out
+    dataRef: leaf-4:ethernet-1/17:in
     label: *label-config
     strokeColor:
       thresholds: *thresholds-traffic
