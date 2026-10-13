@@ -53,11 +53,11 @@ cells:
     label: *label-config
     strokeColor:
       thresholds: *thresholds-traffic
-  leaf-1:ethernet-1/9/1:server-2:eth1:
+  leaf-1:ethernet-1/6/1:server-2:eth1:
     dataRef: oper-state:leaf-1:ethernet-1/9/1
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:leaf-1:ethernet-1/9/1:server-2:eth1:
+  link_id:leaf-1:ethernet-1/6/1:server-2:eth1:
     dataRef: leaf-1:ethernet-1/9/1:out
     label: *label-config
     strokeColor:
@@ -89,11 +89,11 @@ cells:
     label: *label-config
     strokeColor:
       thresholds: *thresholds-traffic
-  leaf-2:ethernet-1/9/1:server-2:eth2:
+  leaf-2:ethernet-1/6/1:server-2:eth2:
     dataRef: oper-state:leaf-2:ethernet-1/9/1
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:leaf-2:ethernet-1/9/1:server-2:eth2:
+  link_id:leaf-2:ethernet-1/6/1:server-2:eth2:
     dataRef: leaf-2:ethernet-1/9/1:out
     label: *label-config
     strokeColor:
@@ -125,11 +125,11 @@ cells:
     label: *label-config
     strokeColor:
       thresholds: *thresholds-traffic
-  leaf-3:ethernet-1/17:server-2:eth3:
-    dataRef: oper-state:leaf-3:ethernet-1/2
+  leaf-3:ethernet-1/2:server-2:eth3:
+    dataRef: oper-state:leaf-3:ethernet-1/17
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:leaf-3:ethernet-1/17:server-2:eth3:
+  link_id:leaf-3:ethernet-1/2:server-2:eth3:
     dataRef: leaf-3:ethernet-1/17:out
     label: *label-config
     strokeColor:
@@ -161,11 +161,11 @@ cells:
     label: *label-config
     strokeColor:
       thresholds: *thresholds-traffic
-  leaf-4:ethernet-1/17:server-2:eth4:
+  leaf-4:ethernet-1/2:server-2:eth4:
     dataRef: oper-state:leaf-4:ethernet-1/2
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:leaf-4:ethernet-1/17:server-2:eth4:
+  link_id:leaf-4:ethernet-1/2:server-2:eth4:
     dataRef: leaf-4:ethernet-1/17:out
     label: *label-config
     strokeColor:
@@ -278,38 +278,38 @@ cells:
     label: *label-config
     strokeColor:
       thresholds: *thresholds-traffic
-  server-2:eth1:leaf-1:ethernet-1/9/1:
+  server-2:eth1:leaf-1:ethernet-1/6/1:
     dataRef: oper-state:server-2:eth1
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:server-2:eth1:leaf-1:ethernet-1/9/1:
+  link_id:server-2:eth1:leaf-1:ethernet-1/6/1:
     dataRef: server-2:eth1:out
     label: *label-config
     strokeColor:
       thresholds: *thresholds-traffic
-  server-2:eth2:leaf-2:ethernet-1/9/1:
+  server-2:eth2:leaf-2:ethernet-1/6/1:
     dataRef: oper-state:server-2:eth2
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:server-2:eth2:leaf-2:ethernet-1/9/1:
+  link_id:server-2:eth2:leaf-2:ethernet-1/6/1:
     dataRef: server-2:eth2:out
     label: *label-config
     strokeColor:
       thresholds: *thresholds-traffic
-  server-2:eth3:leaf-3:ethernet-1/17:
+  server-2:eth3:leaf-3:ethernet-1/2:
     dataRef: oper-state:server-2:eth3
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:server-2:eth3:leaf-3:ethernet-1/17:
+  link_id:server-2:eth3:leaf-3:ethernet-1/2:
     dataRef: server-2:eth3:out
     label: *label-config
     strokeColor:
       thresholds: *thresholds-traffic
-  server-2:eth4:leaf-4:ethernet-1/17:
+  server-2:eth4:leaf-4:ethernet-1/2:
     dataRef: oper-state:server-2:eth4
     fillColor:
       thresholds: *thresholds-operstate
-  link_id:server-2:eth4:leaf-4:ethernet-1/17:
+  link_id:server-2:eth4:leaf-4:ethernet-1/2:
     dataRef: server-2:eth4:out
     label: *label-config
     strokeColor:
