@@ -162,7 +162,7 @@ cells:
     strokeColor:
       thresholds: *thresholds-traffic
   leaf-4:ethernet-1/2:server-2:eth4:
-    dataRef: oper-state:leaf-4:ethernet-1/2
+    dataRef: oper-state:leaf-4:ethernet-1/17
     fillColor:
       thresholds: *thresholds-operstate
   link_id:leaf-4:ethernet-1/2:server-2:eth4:
