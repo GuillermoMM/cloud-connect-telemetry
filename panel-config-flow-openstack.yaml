@@ -314,3 +314,17 @@ cells:
     label: *label-config
     strokeColor:
       thresholds: *thresholds-traffic
+  link_id:external-1:leaf-1:ethernet-1/5/1:
+    dataRef: leaf-1:ethernet-1/5/1:in
+    label: *label-config
+    strokeColor:
+      thresholds: *thresholds-traffic
+  link_id:leaf-1:ethernet-1/5/1:external-1:
+    dataRef: leaf-1:ethernet-1/5/1:out
+    label: *label-config
+    strokeColor:
+      thresholds: *thresholds-traffic
+  s6Rh90NKRE-cAlZ5OMCza-3:
+    dataRef: oper-state:leaf-1:ethernet-1/5/1
+    fillColor:
+      thresholds: *thresholds-operstate
