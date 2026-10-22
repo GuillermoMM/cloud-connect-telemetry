@@ -261,7 +261,7 @@ cells:
     strokeColor:
       thresholds: *thresholds-traffic
   server-1:eth3:leaf-3:ethernet-1/1:
-    dataRef: oper-state:server-1:eth3
+    dataRef: oper-state:leaf-3:ethernet-1-1
     fillColor:
       thresholds: *thresholds-operstate
   link_id:server-1:eth3:leaf-3:ethernet-1/1:
@@ -270,7 +270,7 @@ cells:
     strokeColor:
       thresholds: *thresholds-traffic
   server-1:eth4:leaf-4:ethernet-1/1:
-    dataRef: oper-state:server-1:eth4
+    dataRef: oper-state:leaf-4:ethernet-1/1
     fillColor:
       thresholds: *thresholds-operstate
   link_id:server-1:eth4:leaf-4:ethernet-1/1:
@@ -279,7 +279,7 @@ cells:
     strokeColor:
       thresholds: *thresholds-traffic
   server-2:eth1:leaf-1:ethernet-1/6/1:
-    dataRef: oper-state:server-2:eth1
+    dataRef: oper-state:leaf-1:ethernet-1/9/1
     fillColor:
       thresholds: *thresholds-operstate
   link_id:server-2:eth1:leaf-1:ethernet-1/6/1:
@@ -288,7 +288,7 @@ cells:
     strokeColor:
       thresholds: *thresholds-traffic
   server-2:eth2:leaf-2:ethernet-1/6/1:
-    dataRef: oper-state:server-2:eth2
+    dataRef: oper-state:leaf-2:ethernet-1/9/1 
     fillColor:
       thresholds: *thresholds-operstate
   link_id:server-2:eth2:leaf-2:ethernet-1/6/1:
