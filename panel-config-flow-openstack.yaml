@@ -261,7 +261,7 @@ cells:
     strokeColor:
       thresholds: *thresholds-traffic
   server-1:eth3:leaf-3:ethernet-1/1:
-    dataRef: oper-state:leaf-3:ethernet-1-1
+    dataRef: oper-state:leaf-3:ethernet-1/1
     fillColor:
       thresholds: *thresholds-operstate
   link_id:server-1:eth3:leaf-3:ethernet-1/1:
