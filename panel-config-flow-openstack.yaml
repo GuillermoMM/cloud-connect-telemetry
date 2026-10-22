@@ -314,7 +314,7 @@ cells:
     label: *label-config
     strokeColor:
       thresholds: *thresholds-traffic
-  l6Rh90NKRE-cAlZ5OMCza-2:
+  6Rh90NKRE-cAlZ5OMCza-2:
     dataRef: leaf-1:ethernet-1/5/1:in
     label: *label-config
     strokeColor:
