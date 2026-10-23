@@ -360,3 +360,43 @@ cells:
     label: *label-config
     strokeColor:
       thresholds: *thresholds-traffic
+  IukGf-O_Y0aOi5EtH08c-5:
+    dataRef: oper-state:leaf-1:ethernet-1/5/1
+    fillColor:
+      thresholds: *thresholds-operstate
+  IukGf-O_Y0aOi5EtH08c-12:
+    dataRef: leaf-1:ethernet-1/28:out
+    label: *label-config
+    strokeColor:
+      thresholds: *thresholds-traffic
+  IukGf-O_Y0aOi5EtH08c-17:
+    dataRef: leaf-2:ethernet-1/32:out
+    label: *label-config
+    strokeColor:
+      thresholds: *thresholds-traffic
+  IukGf-O_Y0aOi5EtH08c-19:
+    dataRef: spine-2:ethernet-1/3:out
+    label: *label-config
+    strokeColor:
+      thresholds: *thresholds-traffic
+  IukGf-O_Y0aOi5EtH08c-15:
+    dataRef: spine-2:ethernet-1/9:out
+    label: *label-config
+    strokeColor:
+      thresholds: *thresholds-traffic
+  IukGf-O_Y0aOi5EtH08c-9:
+    dataRef: oper-state:leaf-1:ethernet-1/28
+    fillColor:
+      thresholds: *thresholds-operstate
+  IukGf-O_Y0aOi5EtH08c-11:
+    dataRef: oper-state:leaf-2:ethernet-1/32
+    fillColor:
+      thresholds: *thresholds-operstate
+  IukGf-O_Y0aOi5EtH08c-8:
+    dataRef: oper-state:spine-2:ethernet-1/9
+    fillColor:
+      thresholds: *thresholds-operstate
+  IukGf-O_Y0aOi5EtH08c-7:
+    dataRef: oper-state:spine-2:ethernet-1/3
+    fillColor:
+      thresholds: *thresholds-operstate
