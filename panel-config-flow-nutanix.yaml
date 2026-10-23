@@ -350,3 +350,13 @@ cells:
     label: *label-config
     strokeColor:
       thresholds: *thresholds-traffic
+  IukGf-O_Y0aOi5EtH08c-2:
+    dataRef: leaf-1:ethernet-1/5/1:in
+    label: *label-config
+    strokeColor:
+      thresholds: *thresholds-traffic
+  IukGf-O_Y0aOi5EtH08c-4:
+    dataRef: leaf-1:ethernet-1/5/1:out
+    label: *label-config
+    strokeColor:
+      thresholds: *thresholds-traffic
